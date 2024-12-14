@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T09:59:25 IST" name="Suite" finished-at="2024-12-14T10:01:46 IST" duration-ms="141007">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T09:59:25 IST" name="Test" finished-at="2024-12-14T10:01:46 IST" duration-ms="141007">
+      <class name="com.TutorialNinjaTeastCase.Register">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:25 IST" name="openBrowser" finished-at="2024-12-14T09:59:32 IST" duration-ms="7404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyRegisterPageWithMandatoryField()[pri:1, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:32 IST" name="verifyRegisterPageWithMandatoryField" finished-at="2024-12-14T09:59:34 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPageWithMandatoryField -->
+        <test-method is-config="true" signature="closeWindowSetUp()[pri:0, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:34 IST" name="closeWindowSetUp" finished-at="2024-12-14T09:59:36 IST" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindowSetUp -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:36 IST" name="openBrowser" finished-at="2024-12-14T09:59:42 IST" duration-ms="6371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyRegisterPageWithMandatoryAllField()[pri:2, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:42 IST" name="verifyRegisterPageWithMandatoryAllField" finished-at="2024-12-14T09:59:44 IST" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPageWithMandatoryAllField -->
+        <test-method is-config="true" signature="closeWindowSetUp()[pri:0, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:44 IST" name="closeWindowSetUp" finished-at="2024-12-14T09:59:45 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindowSetUp -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:45 IST" name="openBrowser" finished-at="2024-12-14T09:59:51 IST" duration-ms="5783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyRegisterPageWitExistingEmailAddressWithMandatoryAllField()[pri:3, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:51 IST" name="verifyRegisterPageWitExistingEmailAddressWithMandatoryAllField" finished-at="2024-12-14T09:59:53 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPageWitExistingEmailAddressWithMandatoryAllField -->
+        <test-method is-config="true" signature="closeWindowSetUp()[pri:0, instance:com.TutorialNinjaTeastCase.Register@76505305]" started-at="2024-12-14T09:59:53 IST" name="closeWindowSetUp" finished-at="2024-12-14T09:59:54 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindowSetUp -->
+      </class> <!-- com.TutorialNinjaTeastCase.Register -->
+      <class name="com.TutorialNinjaTeastCase.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T09:59:55 IST" name="setUp" finished-at="2024-12-14T10:00:01 IST" duration-ms="6689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:01 IST" name="verifyLoginWithValidcredentials" data-provider="validCredentialsSupplier" finished-at="2024-12-14T10:00:05 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushanyenorkar74@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhushan@mayuri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:05 IST" name="tearDown" finished-at="2024-12-14T10:00:06 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:06 IST" name="setUp" finished-at="2024-12-14T10:00:12 IST" duration-ms="5638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:12 IST" name="verifyLoginWithValidcredentials" data-provider="validCredentialsSupplier" finished-at="2024-12-14T10:00:23 IST" duration-ms="11084" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushanyenorkar7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhushan@mayuri]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7054a82c9f3b071fceb62bdc763741da, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55404}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\91937\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55404/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7054a82c9f3b071fceb62bdc763741da]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7054a82c9f3b071fceb62bdc763741da, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55404}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\91937\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55404/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7054a82c9f3b071fceb62bdc763741da
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at com.tutorialsninja.qa.pages.AccountPage.getDisplayStatusOfEditYourAccountInformationOption(AccountPage.java:24)
+at com.TutorialNinjaTeastCase.Login.verifyLoginWithValidcredentials(Login.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:23 IST" name="tearDown" finished-at="2024-12-14T10:00:24 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:24 IST" name="setUp" finished-at="2024-12-14T10:00:32 IST" duration-ms="7331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:32 IST" name="verifyLoginWithValidcredentials" data-provider="validCredentialsSupplier" finished-at="2024-12-14T10:00:43 IST" duration-ms="11039" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushanyenorkar724@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhushan@mayuri]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [97d771e3188a1e11a9de0e708c832eb2, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55441}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\91937\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55441/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97d771e3188a1e11a9de0e708c832eb2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [97d771e3188a1e11a9de0e708c832eb2, findElement {value=Edit your account information, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55441}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\Users\91937\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55441/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97d771e3188a1e11a9de0e708c832eb2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at com.tutorialsninja.qa.pages.AccountPage.getDisplayStatusOfEditYourAccountInformationOption(AccountPage.java:24)
+at com.TutorialNinjaTeastCase.Login.verifyLoginWithValidcredentials(Login.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:43 IST" name="tearDown" finished-at="2024-12-14T10:00:44 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:44 IST" name="setUp" finished-at="2024-12-14T10:00:51 IST" duration-ms="6616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInValidcredentials()[pri:2, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:51 IST" name="verifyLoginWithInValidcredentials" finished-at="2024-12-14T10:00:52 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:52 IST" name="tearDown" finished-at="2024-12-14T10:00:53 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:00:53 IST" name="setUp" finished-at="2024-12-14T10:01:00 IST" duration-ms="6414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInValidEmailandValidPasswordCredentials()[pri:3, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:00 IST" name="verifyLoginWithInValidEmailandValidPasswordCredentials" finished-at="2024-12-14T10:01:01 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidEmailandValidPasswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:01 IST" name="tearDown" finished-at="2024-12-14T10:01:02 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:02 IST" name="setUp" finished-at="2024-12-14T10:01:08 IST" duration-ms="6038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailandInavlidPasswordCredentials()[pri:4, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:08 IST" name="verifyLoginWithValidEmailandInavlidPasswordCredentials" finished-at="2024-12-14T10:01:09 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInavlidPasswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:09 IST" name="tearDown" finished-at="2024-12-14T10:01:10 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:10 IST" name="setUp" finished-at="2024-12-14T10:01:19 IST" duration-ms="8429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutEmailAndPasswordCredentials()[pri:5, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:19 IST" name="verifyLoginWithoutEmailAndPasswordCredentials" finished-at="2024-12-14T10:01:20 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutEmailAndPasswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Login@292b08d6]" started-at="2024-12-14T10:01:20 IST" name="tearDown" finished-at="2024-12-14T10:01:21 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TutorialNinjaTeastCase.Login -->
+      <class name="com.TutorialNinjaTeastCase.Search">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:21 IST" name="setUp" finished-at="2024-12-14T10:01:27 IST" duration-ms="5989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySerchWithValidProduct()[pri:1, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:27 IST" name="verifySerchWithValidProduct" finished-at="2024-12-14T10:01:28 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySerchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:28 IST" name="tearDown" finished-at="2024-12-14T10:01:29 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:29 IST" name="setUp" finished-at="2024-12-14T10:01:35 IST" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySerchWithInValidProduct()[pri:2, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:35 IST" name="verifySerchWithInValidProduct" finished-at="2024-12-14T10:01:35 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySerchWithInValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:35 IST" name="tearDown" finished-at="2024-12-14T10:01:36 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:36 IST" name="setUp" finished-at="2024-12-14T10:01:44 IST" duration-ms="7862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySerchWithoutAnyProduct()[pri:3, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:44 IST" name="verifySerchWithoutAnyProduct" finished-at="2024-12-14T10:01:44 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySerchWithoutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialNinjaTeastCase.Search@22555ebf]" started-at="2024-12-14T10:01:44 IST" name="tearDown" finished-at="2024-12-14T10:01:46 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TutorialNinjaTeastCase.Search -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
